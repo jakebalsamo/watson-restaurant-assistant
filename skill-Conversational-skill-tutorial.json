@@ -1,0 +1,2204 @@
+{
+  "name": "Conversational skill tutorial",
+  "intents": [
+    {
+      "intent": "yes",
+      "examples": [
+        {
+          "text": "Yup"
+        },
+        {
+          "text": "yeah"
+        },
+        {
+          "text": "That's right"
+        },
+        {
+          "text": "That is correct."
+        },
+        {
+          "text": "Please do that."
+        },
+        {
+          "text": "You've got that right"
+        },
+        {
+          "text": "Please do"
+        },
+        {
+          "text": "Correct"
+        },
+        {
+          "text": "Yes"
+        },
+        {
+          "text": "Yes, I'd like to go ahead with that"
+        }
+      ],
+      "description": "yup"
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Is this a computer?"
+        },
+        {
+          "text": "Tell me, are you a human or no?"
+        },
+        {
+          "text": "Am I chatting with a human?"
+        },
+        {
+          "text": "Am I talking to Watson?"
+        },
+        {
+          "text": "Am I talking to a Bot?"
+        },
+        {
+          "text": "Am I talking to a person or am I talking to an AI?"
+        },
+        {
+          "text": "Are you a human or a bot?"
+        },
+        {
+          "text": "Are you a robot?"
+        },
+        {
+          "text": "Are you even real?"
+        },
+        {
+          "text": "Are you human?"
+        },
+        {
+          "text": "Are you real?"
+        },
+        {
+          "text": "How can you prove you are a human?"
+        }
+      ],
+      "description": "Ask if speaking to a human or a bot."
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Do you have humor?"
+        },
+        {
+          "text": "Do you like fun?"
+        },
+        {
+          "text": "Do you like humor?"
+        },
+        {
+          "text": "I am getting bored"
+        },
+        {
+          "text": "What do you do for fun?"
+        },
+        {
+          "text": "What is your favorite joke?"
+        },
+        {
+          "text": "Tell me something funny"
+        },
+        {
+          "text": "Tell me a joke"
+        },
+        {
+          "text": "Surprise me with something hilarious"
+        },
+        {
+          "text": "One more joke"
+        },
+        {
+          "text": "I'm bored"
+        },
+        {
+          "text": "I want a joke"
+        },
+        {
+          "text": "Another joke"
+        },
+        {
+          "text": "Are there jokes?"
+        },
+        {
+          "text": "Can you tell a joke?"
+        },
+        {
+          "text": "Can you tell me a joke?"
+        },
+        {
+          "text": "Do you have a joke?"
+        }
+      ],
+      "description": "Request a joke."
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Robots are boring"
+        },
+        {
+          "text": "Quit annoying me"
+        },
+        {
+          "text": "It is annoying"
+        },
+        {
+          "text": "I hate you"
+        },
+        {
+          "text": "I hate this!"
+        },
+        {
+          "text": "I do not like you"
+        },
+        {
+          "text": "Hate you"
+        },
+        {
+          "text": "Everyone hates you"
+        },
+        {
+          "text": "Do not like you?"
+        },
+        {
+          "text": "You're too stupid"
+        },
+        {
+          "text": "You're really irritating"
+        },
+        {
+          "text": "You're really frustrating"
+        },
+        {
+          "text": "You do not seem smart"
+        },
+        {
+          "text": "You are very frustrating"
+        },
+        {
+          "text": "You are on my nerves"
+        },
+        {
+          "text": "You are having delusions"
+        },
+        {
+          "text": "Why are you stupid?"
+        },
+        {
+          "text": "Why are you so annoying?"
+        },
+        {
+          "text": "Stupid"
+        },
+        {
+          "text": "Robots are stupid"
+        }
+      ],
+      "description": "Express unfavorable feedback."
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [
+        {
+          "text": "Are you safe?"
+        },
+        {
+          "text": "Are you safe on hackers?"
+        },
+        {
+          "text": "Will my conversation remain secured?"
+        },
+        {
+          "text": "I'd like proof of a secure chat"
+        },
+        {
+          "text": "In what way can I tell if my plastic is safe?"
+        },
+        {
+          "text": "Is my card info secure?"
+        },
+        {
+          "text": "Is my payment information secure?"
+        },
+        {
+          "text": "Is there a reason to distrust this chat?"
+        },
+        {
+          "text": "Is this a trusted chat site?"
+        },
+        {
+          "text": "Is this an official chat?"
+        },
+        {
+          "text": "Is this conversation secure?"
+        },
+        {
+          "text": "Precautions hackers?"
+        },
+        {
+          "text": "Why would I trust this chat?"
+        },
+        {
+          "text": "What safety measures are used to ensure that chat is secure?"
+        },
+        {
+          "text": "What makes this chat trustworthy?"
+        },
+        {
+          "text": "What guards do you have in place to protect your customer's data?"
+        },
+        {
+          "text": "Secure conversation?"
+        },
+        {
+          "text": "Protection hacks?"
+        },
+        {
+          "text": "How safe is my data?"
+        },
+        {
+          "text": "How is my credit card info secured?"
+        },
+        {
+          "text": "How do I know this chat is not a scam?"
+        },
+        {
+          "text": "How do I know if my card info is kept safe?"
+        },
+        {
+          "text": "Do you have protection against hacks?"
+        },
+        {
+          "text": "Customer info secured?"
+        },
+        {
+          "text": "Conversation secure?"
+        },
+        {
+          "text": "Can I be sure that my stored card details are held securely?"
+        }
+      ],
+      "description": "Express concerns about the security of the bot."
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "Brilliant!"
+        },
+        {
+          "text": "You've been so helpful :)"
+        },
+        {
+          "text": "You're a genius!"
+        },
+        {
+          "text": "You the man"
+        },
+        {
+          "text": "You gave me exactly what I need!"
+        },
+        {
+          "text": "You are wonderful"
+        },
+        {
+          "text": "You are the best"
+        },
+        {
+          "text": "You are great"
+        },
+        {
+          "text": "You are awesome"
+        },
+        {
+          "text": "This is so cool"
+        },
+        {
+          "text": "This is great"
+        },
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "Ok thank you"
+        },
+        {
+          "text": "Love your work"
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "I like what you did there! :)"
+        },
+        {
+          "text": "How cool is this?"
+        },
+        {
+          "text": "Can't believe you are that good"
+        }
+      ],
+      "description": "Express positive sentiment or gratitude."
+    },
+    {
+      "intent": "no",
+      "examples": [
+        {
+          "text": "that is not right"
+        },
+        {
+          "text": "wrong"
+        },
+        {
+          "text": "that is wrong"
+        },
+        {
+          "text": "not right"
+        },
+        {
+          "text": "incorrect"
+        },
+        {
+          "text": "that is incorrect"
+        },
+        {
+          "text": "no thank you"
+        },
+        {
+          "text": "nope"
+        },
+        {
+          "text": "no"
+        },
+        {
+          "text": "nada"
+        },
+        {
+          "text": "negative"
+        }
+      ],
+      "description": "nope"
+    },
+    {
+      "intent": "about_restaurant",
+      "examples": [
+        {
+          "text": "Who is your head chef and what is the chef's background?"
+        },
+        {
+          "text": "Tell me about the restaurant"
+        },
+        {
+          "text": "I want to know about you"
+        },
+        {
+          "text": "Who are the restaurant owners and what is their philosophy"
+        },
+        {
+          "text": "What's your story?"
+        },
+        {
+          "text": "Where do you source your produce from?"
+        },
+        {
+          "text": "How many locations do you have?"
+        },
+        {
+          "text": "Do you cater or host functions on site?"
+        },
+        {
+          "text": "Do you deliver?"
+        },
+        {
+          "text": "Are you open for breakfast?"
+        }
+      ],
+      "description": "User inquiry of restaurant"
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "Time to go"
+        },
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Ending this session"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "about_menu",
+      "examples": [
+        {
+          "text": "Tell me the entree choices"
+        },
+        {
+          "text": "Do you offer a prix fixe option?"
+        },
+        {
+          "text": "I want to see a menu"
+        },
+        {
+          "text": "What do you have for food?"
+        },
+        {
+          "text": "How much does a typical dish cost?"
+        },
+        {
+          "text": "Are there any specials today?"
+        },
+        {
+          "text": "Where can i find out about your cuisine?"
+        },
+        {
+          "text": "What dishes do you have?"
+        },
+        {
+          "text": "What are the choices for appetizers?"
+        },
+        {
+          "text": "Do you serve desserts?"
+        },
+        {
+          "text": "What is the price range of your meals?"
+        }
+      ],
+      "description": "Inquiry of restaurant menu"
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "What can I ask you to do?"
+        },
+        {
+          "text": "How do I use you?"
+        },
+        {
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "How can I use you?"
+        },
+        {
+          "text": "Hi, what do you do?"
+        },
+        {
+          "text": "What are you used for?"
+        },
+        {
+          "text": "Help now"
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        },
+        {
+          "text": "Can you tell me what services you are able to help me with?"
+        },
+        {
+          "text": "Can you please give me a list of the types of things you can help me with?"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "What are you able to understand?"
+        },
+        {
+          "text": "What are you able to deal with?"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "What are my options that you can help with?"
+        },
+        {
+          "text": "Tell me something"
+        },
+        {
+          "text": "Tell me about what kind of things you do?"
+        },
+        {
+          "text": "Is there anything you can help me with?"
+        },
+        {
+          "text": "I'd like to know what type of questions you can answer for me."
+        },
+        {
+          "text": "I do not know what to ask"
+        },
+        {
+          "text": "What kinds of things can you do?"
+        },
+        {
+          "text": "Where can I find the frequently asked questions?"
+        },
+        {
+          "text": "What is this 4?"
+        },
+        {
+          "text": "What features are in here?"
+        },
+        {
+          "text": "What else can you help me with?"
+        },
+        {
+          "text": "What do you handle?"
+        },
+        {
+          "text": "What do you do?"
+        },
+        {
+          "text": "What are your skills?"
+        }
+      ],
+      "description": "Request capabilities of the bot."
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "A real agent, please."
+        },
+        {
+          "text": "Agent help"
+        },
+        {
+          "text": "Call agent"
+        },
+        {
+          "text": "Can I connect to an agent?"
+        },
+        {
+          "text": "Can I speak to a human please?"
+        },
+        {
+          "text": "Can I speak to a live person?"
+        },
+        {
+          "text": "Can I speak to an advisor?"
+        },
+        {
+          "text": "Can I speak with somebody?"
+        },
+        {
+          "text": "Can I talk to someone?"
+        },
+        {
+          "text": "Can you assist me to connect to an agent?"
+        },
+        {
+          "text": "Can you connect me with a real person?"
+        },
+        {
+          "text": "Connect me to a live operator please."
+        },
+        {
+          "text": "Contact person"
+        },
+        {
+          "text": "Could you please transfer me to your master?"
+        },
+        {
+          "text": "Customer service representative please."
+        },
+        {
+          "text": "Do not want a robot?"
+        },
+        {
+          "text": "Hi can you transfer me"
+        },
+        {
+          "text": "How can I skip the recorded menu and go straight to a live person?"
+        },
+        {
+          "text": "I don't want to talk to a bot."
+        },
+        {
+          "text": "I don't want to talk to you"
+        },
+        {
+          "text": "I need to speak to a representative. How would I go about doing so?"
+        },
+        {
+          "text": "I want a manager"
+        },
+        {
+          "text": "I want agent"
+        },
+        {
+          "text": "I want an agent to help me"
+        },
+        {
+          "text": "I want to talk to a person"
+        },
+        {
+          "text": "I would like to speak to a human"
+        },
+        {
+          "text": "I would like to speak to someone"
+        },
+        {
+          "text": "Is there anyone there I can actually talk to for real?"
+        },
+        {
+          "text": "Need help from human"
+        },
+        {
+          "text": "Operator please"
+        },
+        {
+          "text": "Please assist me to get to an agent"
+        },
+        {
+          "text": "Please connect me to a live agent"
+        },
+        {
+          "text": "Please let me talk to a human being."
+        },
+        {
+          "text": "Pls connect"
+        },
+        {
+          "text": "Put me through to someone"
+        },
+        {
+          "text": "Send me to an agent"
+        },
+        {
+          "text": "Where is the closest agent?"
+        },
+        {
+          "text": "Yes, take me to a real person"
+        }
+      ],
+      "description": "Request a human agent."
+    },
+    {
+      "intent": "hours",
+      "examples": [
+        {
+          "text": "when can i come in"
+        },
+        {
+          "text": "are you open in the morning"
+        },
+        {
+          "text": "what are your hours"
+        },
+        {
+          "text": "when are you open"
+        },
+        {
+          "text": "hours"
+        },
+        {
+          "text": "what days are you open"
+        },
+        {
+          "text": "when do you open"
+        },
+        {
+          "text": "when do you close"
+        },
+        {
+          "text": "opening time"
+        }
+      ],
+      "description": "what are hours"
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "You there"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How have you been?"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "cancel_order",
+      "examples": [
+        {
+          "text": "I need to cancel an order I just placed"
+        },
+        {
+          "text": "I want to cancel my order"
+        },
+        {
+          "text": "There's been a change. I need to cancel my bakery order."
+        },
+        {
+          "text": "Please cancel the birthday cake order I placed last week"
+        },
+        {
+          "text": "That order I placed, I need to cancel it"
+        },
+        {
+          "text": "The party theme changed; we don't need a cake anymore"
+        },
+        {
+          "text": "I'd like to cancel my order"
+        },
+        {
+          "text": "Can I cancel my cake order?"
+        }
+      ],
+      "description": "Request an order to be cancelled"
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "Do you know who you are?"
+        },
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "Can I use another language?"
+        },
+        {
+          "text": "About you"
+        },
+        {
+          "text": "Where were you born?"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "Why are you here?"
+        },
+        {
+          "text": "Introduce your self"
+        },
+        {
+          "text": "I want to set up the chat bot for my shop"
+        },
+        {
+          "text": "How old are you?"
+        },
+        {
+          "text": "How do you function?"
+        },
+        {
+          "text": "How can I configure you?"
+        },
+        {
+          "text": "Do you have a name?"
+        },
+        {
+          "text": "Let us talk about you"
+        },
+        {
+          "text": "Tell me about your life"
+        },
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "Where are you from?"
+        }
+      ],
+      "description": "Request generic personal attributes."
+    },
+    {
+      "intent": "make_reservation",
+      "examples": [
+        {
+          "text": "do you take reservations"
+        },
+        {
+          "text": "can i plan a visit to the restaurant"
+        },
+        {
+          "text": "i am planning on visiting soon"
+        },
+        {
+          "text": "reserve a table for me"
+        },
+        {
+          "text": "i would like to reserve a seat"
+        },
+        {
+          "text": "i would like to book a table"
+        },
+        {
+          "text": "can i book a table"
+        },
+        {
+          "text": "can i make a reservation?"
+        },
+        {
+          "text": "i would like to make a reservation"
+        }
+      ],
+      "description": "dindin"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "order_number",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "order_syntax",
+          "patterns": [
+            "[A-Z]{2}\\d{5}"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "menu",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Cake",
+          "synonyms": [
+            "cake menu",
+            "cake shop menu",
+            "dessert menu",
+            "bakery offerings"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Standard",
+          "synonyms": [
+            "standard menu",
+            "bill of fare",
+            "cuisine",
+            "carte du jour"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Vegetarian",
+          "synonyms": [
+            "vegetarian menu",
+            "vegan",
+            "meatless",
+            "meatless diet",
+            "vegan diet",
+            "plants-only"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-person",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "question",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "question",
+          "patterns": [
+            "(\"?\")",
+            "([?])",
+            "(\"??\")"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-percentage",
+      "values": [],
+      "fuzzy_match": true
+    }
+  ],
+  "language": "en",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "skill_id": "46d19b18-ca8c-46d9-852a-6910a669bac5",
+  "description": "",
+  "dialog_nodes": [
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "What name should I put the reservation under?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_5_1569964732068",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1569964732076",
+      "previous_sibling": "handler_4_1569964732076"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_5_1569964732068",
+      "context": {
+        "username": "@sys-person"
+      },
+      "conditions": "@sys-person",
+      "event_name": "input",
+      "dialog_node": "handler_4_1569964732076"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "To see our cake shop menu, go to the <a href=\"https://www.example.com/menu.html\" target=\"blank\">cake shop menu</a> page on our website."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1569858360253",
+      "conditions": "@menu:Cake",
+      "dialog_node": "node_7_1569858986358",
+      "previous_sibling": "node_2_1569858898792"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "To see our menu, go to the <a href=\"https://www.example.com/menu.html\" target=\"blank\">menu</a> page on our website."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1569858360253",
+      "conditions": "@menu:Standard",
+      "dialog_node": "node_6_1569858850826",
+      "previous_sibling": "node_7_1569858986358"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "To see our vegetarian menu, go to the <a href=\"https://www.example.com/vegetarian-menu.html\" target=\"blank\">vegetarian menu</a> page on our website."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1569858360253",
+      "conditions": "@menu:Vegetarian",
+      "dialog_node": "node_2_1569858898792"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How can I help you today?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1569959038810",
+      "conditions": "true",
+      "dialog_node": "node_10_1569959130540",
+      "previous_sibling": "node_8_1569959066085"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello, <? @sys-person.literal ?>! It's lovely to meet you. How can I help you today?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1569959038810",
+      "context": {
+        "username": "<? @sys-person.literal ?>"
+      },
+      "conditions": "@sys-person",
+      "dialog_node": "node_8_1569959066085"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "How many people would you like to seat?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_6_1569964197951",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1569964197953",
+      "previous_sibling": "handler_9_1569964197953"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_6_1569964197951",
+      "context": {
+        "number": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_9_1569964197953"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_5_1569961441747",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay, I will leave that order in progress."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1569961082313",
+      "dialog_node": "response_5_1569961441747",
+      "previous_sibling": "response_1_1569961449832"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_1_1569961449832",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1569961082313",
+      "context": {
+        "ordernumber": "<? @order_number.literal ?>"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_7_1569864528337"
+      },
+      "conditions": "@order_number",
+      "dialog_node": "response_1_1569961449832"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1569963981510",
+      "variable": "$username",
+      "dialog_node": "slot_5_1569964732068",
+      "previous_sibling": "slot_6_1569964197951"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Great. Your reservation has been placed."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1569963981510",
+      "conditions": "#yes",
+      "dialog_node": "node_9_1569965037805",
+      "previous_sibling": "handler_2_1569967724650"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay, what should I change?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1569963981510",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_9_1569963981510"
+      },
+      "conditions": "#no",
+      "dialog_node": "node_10_1569966291877",
+      "previous_sibling": "node_9_1569965037805"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1569963981510",
+      "variable": "$number",
+      "dialog_node": "slot_6_1569964197951",
+      "previous_sibling": "slot_5_1569964176620"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1569963981510",
+      "variable": "$date",
+      "dialog_node": "slot_2_1569963995951",
+      "previous_sibling": "node_10_1569966291877"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1569963981510",
+      "variable": "$time",
+      "dialog_node": "slot_5_1569964176620",
+      "previous_sibling": "slot_2_1569963995951"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The restaurant is open from 11am to 9pm Sunday through Thursday, and from 11am to 11pm on Friday and Saturday. The cake shop is open from 11am to 5pm every day of the week."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1569963981510",
+      "conditions": "#hours",
+      "event_name": "generic",
+      "dialog_node": "handler_2_1569967724650"
+    },
+    {
+      "type": "standard",
+      "title": "No number given",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I need the order number to cancel the order for you. If you don't know the order\nnumber, please call us at 958-234-3456 to cancel over the phone."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1569861995329",
+      "conditions": "true",
+      "dialog_node": "node_4_1569864462249",
+      "previous_sibling": "node_5_1569958705387"
+    },
+    {
+      "type": "standard",
+      "title": "Catch incorrectly formatted ordernumber",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The correct format for our order numbers is AAnnnnn. The A's represents 2 uppercase letters, and the n's represents 5 numbers. Do you have an order number in that format?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1569861995329",
+      "conditions": "input.text.find('\\d')",
+      "dialog_node": "node_5_1569958705387"
+    },
+    {
+      "type": "frame",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay. Just to confirm, I will make a reservation under $username for $number people on $date at $time. Correct?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1569963843749",
+      "conditions": "true",
+      "dialog_node": "node_9_1569963981510"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_1_1569958849446",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I need the order number to cancel the order for you. If you don't know the order number, please call us at 958-234-3456 to cancel over the phone."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1569958775612",
+      "conditions": "true",
+      "dialog_node": "response_1_1569958849446",
+      "previous_sibling": "response_5_1569958817601"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_5_1569958817601",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay, great. The order $ordernumber is canceled. We hope we get the opportunity to bake a cake for you sometime soon!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1569958775612",
+      "conditions": "@order_number",
+      "dialog_node": "response_5_1569958817601"
+    },
+    {
+      "type": "slot",
+      "parent": "node_7_1569864528337",
+      "variable": "$ordernumber",
+      "dialog_node": "slot_6_1569970968270",
+      "previous_sibling": "node_1_1570030927380"
+    },
+    {
+      "type": "standard",
+      "title": "Catch incorrectly formatted ordernumber",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The correct format for our order numbers is AA#####. The A's represents two uppercase letters, and the #'s represents five numbers. Do you have an order number in that format?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1569864528337",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_7_1569864528337"
+      },
+      "conditions": "input.text.find('\\d')",
+      "dialog_node": "node_1_1570030927380",
+      "previous_sibling": "node_5_1570029956450"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_7_1569960666897",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Just to confirm $username, you want to cancel order $ordernumber?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1569864528337",
+      "disabled": true,
+      "conditions": "@sys-person",
+      "dialog_node": "response_7_1569960666897",
+      "previous_sibling": "response_6_1569960663870"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_6_1569960663870",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Just to confirm, you want to cancel order $ordernumber?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1569864528337",
+      "context": {},
+      "disabled": true,
+      "dialog_node": "response_6_1569960663870",
+      "previous_sibling": "slot_6_1569970968270"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1569864528337",
+      "context": {
+        "ordernumber": "<? @order_number.literal ?>"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_7_1569864528337"
+      },
+      "conditions": "#no",
+      "dialog_node": "node_5_1570029956450",
+      "previous_sibling": "node_5_1570029915644"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay, great. The order $ordernumber is canceled. We hope we get the opportunity to bake a cake for you sometime soon!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1569864528337",
+      "conditions": "#yes",
+      "dialog_node": "node_5_1570029915644"
+    },
+    {
+      "type": "frame",
+      "title": "Number provided",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Just to confirm, you want to cancel order $ordernumber?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1569861867238",
+      "context": {
+        "ordernumber": "<? @order_number.literal ?>"
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "true",
+      "dialog_node": "node_7_1569864528337"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_6_1569959571432",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am doing well!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1569363400034",
+      "conditions": "@question",
+      "dialog_node": "response_6_1569959571432",
+      "previous_sibling": "response_3_1569960360820"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_1_1569959273655",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi, $username!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1569363400034",
+      "conditions": "$username",
+      "dialog_node": "response_1_1569959273655",
+      "previous_sibling": "response_6_1569959571432"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_3_1569959249753",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1569363400034",
+      "dialog_node": "response_3_1569959249753",
+      "previous_sibling": "response_1_1569959273655"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_3_1569960360820",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am doing well, $username!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1569363400034",
+      "conditions": "@question && $username",
+      "dialog_node": "response_3_1569960360820"
+    },
+    {
+      "type": "standard",
+      "title": "Ask for order number",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is the order number?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1569970892189",
+      "context": {
+        "ordernumber": "<? @order_number.literal ?>"
+      },
+      "conditions": "true",
+      "dialog_node": "node_6_1569861995329",
+      "previous_sibling": "node_5_1569958346874"
+    },
+    {
+      "type": "standard",
+      "parent": "node_8_1569970892189",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_6_1569861995329"
+      },
+      "conditions": "true",
+      "dialog_node": "node_5_1569958346874",
+      "previous_sibling": "node_3_1569961082313"
+    },
+    {
+      "type": "standard",
+      "parent": "node_8_1569970892189",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#no",
+      "dialog_node": "node_3_1569961082313",
+      "previous_sibling": "node_6_1569958291395"
+    },
+    {
+      "type": "standard",
+      "title": "Order Confirmation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay, great. The order $ordernumber is canceled. We hope we get the opportunity to bake a cake for you sometime soon!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1569970892189",
+      "conditions": "#yes",
+      "dialog_node": "node_6_1569958291395"
+    },
+    {
+      "type": "standard",
+      "parent": "node_5_1569958705387",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "true",
+      "dialog_node": "node_2_1569958775612"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "What is the order number?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_6_1569970968270",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1569970968279",
+      "previous_sibling": "handler_1_1569970968279"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_6_1569970968270",
+      "context": {
+        "ordernumber": "@order_number"
+      },
+      "conditions": "@order_number",
+      "event_name": "input",
+      "dialog_node": "handler_1_1569970968279"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "What time will you arrive?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_5_1569964176620",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1569964176622",
+      "previous_sibling": "handler_7_1569964176622"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_5_1569964176620",
+      "context": {
+        "time": "@sys-time"
+      },
+      "conditions": "@sys-time",
+      "event_name": "input",
+      "dialog_node": "handler_7_1569964176622"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "What day would you like to visit?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_2_1569963995951",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1569963995957",
+      "previous_sibling": "handler_7_1569963995957"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_2_1569963995951",
+      "context": {
+        "date": "@sys-date"
+      },
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_7_1569963995957"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "If the pickup time is more than 48 hours from now, you can cancel your order."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "ordernumber": "<? @order_number.literal ?>"
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#cancel_order",
+      "dialog_node": "node_4_1569861867238",
+      "previous_sibling": "node_6_1569858360253"
+    },
+    {
+      "type": "standard",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#General_Greetings",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1569363400034",
+      "previous_sibling": "node_6_1569959038810"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay. See you later."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Ending",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1569363529294",
+      "previous_sibling": "node_9_1569966644084"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am a virtual assistant that is designed to answer your questions about the Truck Stop Gourmand restaurant. What's your name?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_About_You",
+      "dialog_node": "node_6_1569959038810",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay, we can take reservations as long as it is made at least two hours in advance."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#make_reservation",
+      "dialog_node": "node_10_1569963843749",
+      "previous_sibling": "node_10_1569965345023"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "In keeping with our commitment to giving you only fresh local ingredients, our\nmenu changes daily to accommodate the produce we pick up in the morning. You\ncan find today's menu on our website."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Which menu do you want to see?",
+            "options": [
+              {
+                "label": "Standard",
+                "value": {
+                  "input": {
+                    "text": "standard menu"
+                  }
+                }
+              },
+              {
+                "label": "Vegetarian",
+                "value": {
+                  "input": {
+                    "text": "vegetarian menu"
+                  }
+                }
+              },
+              {
+                "label": "Cake shop",
+                "value": {
+                  "input": {
+                    "text": "cake shop menu"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#about_menu",
+      "dialog_node": "node_6_1569858360253",
+      "previous_sibling": "node_10_1569963843749"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_9_1569363529294"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The restaurant is open from 11am to 9pm Sunday through Thursday, and from 11am to 11pm on Friday and Saturday. The cake shop is open from 11am to 5pm every day of the week."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#hours",
+      "dialog_node": "node_10_1569965345023",
+      "previous_sibling": "node_2_1569857850935"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Happy I could help!"
+              },
+              {
+                "text": "Glad I could lend a hand."
+              },
+              {
+                "text": "I am happy I could be of assistance."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Positive_Feedback",
+      "dialog_node": "node_9_1569966644084",
+      "previous_sibling": "node_4_1569861867238"
+    },
+    {
+      "type": "standard",
+      "title": "extra (not deleted nodes)",
+      "dialog_node": "node_8_1569970892189",
+      "previous_sibling": "Anything else"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "source": "https://www.ibmlearningcenter.com/wp-content/uploads/2018/02/IBM-Learning-Center-Food4.jpg",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Truck Stop Gourmand is the brain child of Gloria and Fred Smith. What started out\nas a food truck in 2004 has expanded into a thriving restaurant. We now have one\nbrick and mortar restaurant in downtown Portland. The bigger kitchen brought with\nit new chefs, but each one is faithful to the philosophy that made the Smith food\ntruck so popular to begin with: deliver fresh, local produce in inventive and\ndelicious ways. Join us for lunch or dinner seven days a week. Or order a cake\nfrom our bakery."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#about_restaurant",
+      "dialog_node": "node_2_1569857850935",
+      "previous_sibling": "node_1_1569363400034"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Welcome to the Truck Stop Gourmand assistant!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "workspace_id": "46d19b18-ca8c-46d9-852a-6910a669bac5",
+  "counterexamples": [],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "status": "Available"
+}
